@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/icons/favicon/favicon.ico" type="image/x-icon">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- wow.js -->
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- Fonts – Google Fonts -->
@@ -31,7 +35,7 @@
                 <!-- Logo -->
                 <div class="header-nav__logo">
                     <a class="logo__link" href="./index.html">
-                        <h1 class="logo__link--text">
+                        <h1 class="logo__link--text wow animate__animated animate__pulse">
                             John Mayer
                         </h1>
                     </a>
@@ -90,7 +94,7 @@
 
             <!-- Noticias cortas -->
             <section class="main-index__short-news">
-                <h2>
+                <h2 class="wow animate__animated animate__fadeInUp">
                     Lo último
                 </h2>
                 <div class="cards">
@@ -135,7 +139,7 @@
 
             <!-- Tour 2022 -->
             <section class="main-index__tour">
-                <h2>
+                <h2 class="wow animate__animated animate__flash">
                     Tour 2022
                 </h2>
                 <img src="./assets/images/tour/tour_2022.jpg" alt="Tour 2022">
@@ -204,6 +208,13 @@
 
 
     </div>
+
+    <!-- Script de wow.js -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 

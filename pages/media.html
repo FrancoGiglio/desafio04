@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/icons/favicon/favicon.ico" type="image/x-icon">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- wow.js -->
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/styles.css">
     <!-- Fonts – Google Fonts -->
@@ -31,7 +35,7 @@
                 <!-- Logo -->
                 <div class="header-nav__logo">
                     <a class="logo__link" href="../index.html">
-                        <h1 class="logo__link--text">
+                        <h1 class="logo__link--text wow animate__animated animate__pulse">
                             John Mayer
                         </h1>
                     </a>
@@ -83,7 +87,7 @@
 
             <!-- Nuevos videos -->
             <section class="main-media__new-videos">
-                <h2>
+                <h2 class="wow animate__animated animate__fadeInUp">
                     Nuevo video
                 </h2>
                 <iframe src="https://player.vimeo.com/video/596212129?h=4ff52e5d0a" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
@@ -93,7 +97,7 @@
 
             <!-- Nuevas fotos -->
             <section class="main-media__new-photos">
-                <h2>
+                <h2 class="wow animate__animated animate__fadeInUp">
                     Nuevas fotos
                 </h2>
                 <div class="main-media__new-photos--gallery">
@@ -168,6 +172,13 @@
 
 
     </div>
+
+    <!-- Script de wow.js -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 
